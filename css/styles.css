@@ -1,0 +1,161 @@
+/* Color Palette
+#2B2D42 - dark blue
+#8D99AE - light blue
+ - blue/white
+#EF233C - red
+*/
+
+/* Global styles 
+------------------------------------*/
+* {
+
+    box-sizing: border-box;
+
+}
+
+body,
+html {
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+body {
+    background: #EDF2F4;
+
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/* Header & Footer 
+------------------------------------*/
+header {
+    background-color: #2B2D42;
+    height: 20em;
+    padding: 2em;
+
+}
+
+header img,
+h1,
+h2,
+p {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+header h1,
+h2 {
+    color: white;
+    line-height: 40px;
+    font-family: 'Caveat';
+
+}
+
+header P {
+    margin-top: 10px;
+    color: #8D99AE;
+}
+
+header a {
+    color: #EF233C;
+}
+
+img {
+    border-radius: 50%;
+    height: 15em;
+    float: left;
+    margin-right: -50px;
+
+
+
+}
+
+
+
+/* Work Experience
+------------------------------------*/
+.work {
+    margin-right: 3em;
+    padding-bottom: 2em;
+}
+
+/*.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  } */
+
+
+.left {
+    float: left;
+    margin-right: 1em;
+}
+
+.paragraafje {
+    text-align: left;
+    margin-left: -120px;
+
+}
+
+.last {
+    margin-left: -15px;
+}
+
+.work h3 {
+    margin-left: 80px;
+}
+
+.right {
+    padding-left: 60px;
+    overflow: auto;
+
+}
+
+li {
+    margin-left: 50px;
+    padding-left: 15px;
+}
+
+/* Education
+------------------------------------*/
+.education {}
+
+section:nth-child(2) {
+    background-color: #8D99AE;
+    margin-bottom: -20px;
+    padding-bottom: 3em;
+    padding-top: 5px;
+}
+
+section h2 {
+    color: black;
+}
+
+.education h3 {
+    padding-left: 80px;
+}
+
+footer {
+    background-color: #2B2D42;
+    padding-top: 5px;
+    padding-bottom: 2em;
+    text-align: center;
+    color: #8D99AE;
+}
+
+footer a {
+    color: #EF233C;
+}
+
+footer div {
+
+    word-spacing: 2em;
+    padding-bottom: 10px;
+}
+
+footer h2 {
+    color: #8D99AE;
+}
